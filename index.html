@@ -1,79 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Aliza Hashmat - Resume</title>
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aliza Hashmat | Software Developer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            color: #555;
+        }
+
+        .section-title {
+            border-bottom: 2px solid #f4b400;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+    </style>
 </head>
 <body>
 
-  <div class="container mt-5">
-    <div class="row">
-      <!-- Left Column - Profile Info -->
-      <div class="col-md-4 bg-light text-center p-4">
-        <img src="path_to_image/mmpic.jpeg" alt="Profile Picture" class="rounded-circle" style="width: 150px; height: 150px;">
-        <h2 class="mt-4">Aliza Hashmat</h2>
-        <p>Software Engineer | Full Stack Developer | Content Writer</p>
-        <p>Freelance Web Developer & Content Writer specializing in Python/Django, React.js, and GitHub.</p>
-      </div>
+    <div class="container">
+        <header>
+            <div>
+                <h1>Aliza Hashmat</h1>
+                <h2>Software Developer</h2>
+            </div>
+            <img src="mmpic.jpeg" alt="Aliza Hashmat">
+        </header>
 
-      <!-- Right Column - Resume Details -->
-      <div class="col-md-8">
-        <!-- About Section -->
-        <section>
-          <h3>About Me</h3>
-          <p>
-            I am a dedicated Software Engineer with a passion for developing innovative programs that expedite the efficiency and effectiveness of organizational success. Experienced in both front-end and back-end development, along with technical content writing. Aspiring to build my own software house and venture into business development in the near future.
-          </p>
+        <section class="contact-info text-right">
+            <p>📞 +92 314 2955404 | 📧 <a href="mailto:aliza.1801014@gmail.com">aliza.1801014@gmail.com</a></p>
+            <p>📍 Karachi, Pakistan | 
+                <a href="https://www.linkedin.com/in/aliza-hashmat" target="_blank">LinkedIn</a> | 
+                <a href="https://github.com/AlizaHashmat-eng" target="_blank">GitHub</a>
+            </p>
         </section>
 
-        <!-- Experience Section -->
-        <section class="mt-4">
-          <h3>Experience</h3>
-          <ul>
-            <li><strong>Freelance Web Developer & Content Writer</strong> - Specialized in creating responsive websites using Python/Django, React.js, and version control systems like GitHub.</li>
-            <li><strong>Junior Python Developer</strong> - Developed full-stack web applications using modern frameworks and libraries.</li>
-          </ul>
+        <section class="summary">
+            <h2 class="section-title">Summary</h2>
+            <p>A recent Software Engineering graduate with a strong background in Python, awarded a 100% merit scholarship throughout my degree for academic excellence. Worked as a Freelance Software Developer during my studies, successfully collaborating with over 15 global clients on Fiverr and other platforms. Delivered web applications and software solutions, gaining hands-on experience in solving real-world, complex problems, while consistently receiving exceptional feedback for the quality of work delivered. Eager to apply these skills and contribute to a forward-thinking company while continuing my professional growth.</p>
         </section>
 
-        <!-- Education Section -->
-        <section class="mt-4">
-          <h3>Education</h3>
-          <ul>
-            <li><strong>Bachelor's in Software Engineering</strong> - Usman Institute of Technology University, Graduated July 2024.</li>
-            <li><strong>Matriculation</strong> - The Citizens Foundation, Completed.</li>
-          </ul>
+        <section class="education">
+            <h2 class="section-title">Education</h2>
+            <p><strong>Usman Institute of Technology</strong> - B.Sc. Software Engineering (Oct '20 - Jul '24)<br>
+            • Top 10 percentile of the class (GPA: 3.4/4.0)</p>
+            <p><strong>Relevant Coursework:</strong> Data Structures, Algorithm Design, Object-Oriented Design, Database Systems, Design Patterns, Web Engineering, System Design, Cloud Computing</p>
         </section>
 
-        <!-- Skills Section -->
-        <section class="mt-4">
-          <h3>Skills</h3>
-          <ul class="list-inline">
-            <li class="list-inline-item">Python</li>
-            <li class="list-inline-item">Django</li>
-            <li class="list-inline-item">React.js</li>
-            <li class="list-inline-item">HTML/CSS</li>
-            <li class="list-inline-item">Git/GitHub</li>
-            <li class="list-inline-item">JavaScript</li>
-            <li class="list-inline-item">Bootstrap</li>
-          </ul>
+        <section class="experience">
+            <h2 class="section-title">Professional Experience</h2>
+            <p><strong>Full-stack Developer</strong> - Toolify (YC W24), Remote (Mar '23 - Sep '24)</p>
+            <ul>
+                <li>Developed and maintained websites using Python/Django and React.js for toolify.ai.</li>
+                <li>Created engaging, SEO-friendly content to enhance traffic and improve user experience.</li>
+                <li>Implemented responsive design principles for optimal performance across all devices.</li>
+            </ul>
+
+            <p><strong>Web Developer Intern</strong> - RS Softwire, Karachi, Pakistan (Jun '23 - Aug '23)</p>
+            <ul>
+                <li>Enhanced expertise in cloud computing and web development.</li>
+                <li>Optimized cloud solutions and crafted efficient web applications using AWS, HTML, CSS, and JavaScript.</li>
+            </ul>
+
+            <p><strong>Freelancer</strong> - Fiverr (Oct '20 - Jul '24)</p>
+            <ul>
+                <li>Collaborated with over 15 clients globally, delivering full-stack development solutions.</li>
+                <li>Specialized in web applications, SEO optimization, and cloud-based development.</li>
+            </ul>
         </section>
 
-        <!-- Contact Section -->
-        <section class="mt-4">
-          <h3>Contact</h3>
-          <p>Email: aliza.hashmat@gmail.com</p>
-          <p>GitHub: <a href="https://github.com/alizahashmat" target="_blank">github.com/alizahashmat</a></p>
+        <section class="projects">
+            <h2 class="section-title">Projects</h2>
+            <p><strong>Grad.io - University Recommendation System</strong> - Flask, Node.js, React, MySQL, Selenium, Heroku<br>
+            <a href="https://github.com/AlizaHashmat-eng/University-Recommendation-System" target="_blank">GitHub Link</a></p>
+            <ul>
+                <li>Applied NLP techniques to process students’ text inputs about their interests, refining university recommendations and improving compatibility by 30%.</li>
+                <li>Implemented a complete authentication system, designed a database schema, and created reusable components.</li>
+            </ul>
+
+            <p><strong>Peptides Dosage Calculator</strong> - Flask, React, Heroku<br>
+            <a href="https://peptidescalculator.com/" target="_blank">Website Link</a></p>
+            <ul>
+                <li>Developed a web application for a US-based peptide business client to automate peptide dosage calculations.</li>
+                <li>Utilized React for frontend and Flask for backend, improving user engagement and efficiency by 80%.</li>
+            </ul>
         </section>
-      </div>
+
+        <section class="skills">
+            <h2 class="section-title">Skills</h2>
+            <p><strong>Key Areas:</strong> Web Application Programming, Distributed Computing, Network Applications, Data Structures, Algorithms, Cloud Applications, SDLC</p>
+            <p><strong>Technical Skills:</strong> Python, JavaScript, HTML, CSS, SQL, Java, C++, PHP, React.js, Django, Flask, Node.js, MySQL, PostgreSQL, MongoDB, AWS, Docker, Heroku</p>
+        </section>
+
+        <section class="certifications">
+            <h2 class="section-title">Certifications</h2>
+            <ul>
+                <li>Introduction to Career Skills in Software Development | LinkedIn | Jun 2024</li>
+                <li>Cloud Computing | Eureka | Mar 2020</li>
+                <li>GitHub Essentials and Advanced | LinkedIn | Sep 2024</li>
+                <li>Project Management Essentials | LinkedIn | Sep 2024</li>
+                <li>Flutter Development | Coursera | Mar 2024</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>Regards, Aliza Hashmat</p>
+        </footer>
     </div>
-  </div>
 
-  <!-- Bootstrap JS, Popper.js, and jQuery -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.11/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
