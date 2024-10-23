@@ -38,5 +38,5 @@ This website has been deployed using Vercel, a platform for hosting static websi
 ## Contact Information
 Feel free to contact me for any inquiries or opportunities. You can reach me at:
 
-- **Email**: aliza.hashmat@gmail.com  
+- **Email**: aliza.1801014@gmail.com  
 - **GitHub**: [github.com/alizahashmat](https://github.com/alizahashmat)
